@@ -1,0 +1,19 @@
+.fContainer {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* justify-content: flex-end; */
+  /* justify-items: center; */
+  /* align-items: flex-end; */
+  border: 5px solid grey;
+  height: 58vh;
+}
+.fItem {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border: 3px solid grey;
+}
+div.fItem1 {
+  order: 2;
+}
